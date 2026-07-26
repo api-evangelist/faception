@@ -1,7 +1,25 @@
 aid: faception
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/faception.png
 name: Faception
-description: Faception is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Faception is an Israeli facial personality analytics company that applies proprietary
+  computer vision and machine learning to analyze facial images from photos, video streams, and
+  cameras, scoring individuals against personality and behavioral classifiers. The company markets
+  its technology to public-safety and smart-city security, fintech, retail, insurance, recruiting,
+  and personal-robotics use cases, and states that it analyzes faces anonymously by storing
+  mathematical classifiers rather than personal identity data. It was added to the API Evangelist
+  network as a portfolio company of 500 Global; at this time it publishes a marketing site and blog
+  but no public API, developer documentation, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/faception/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Facial Recognition
+- Computer Vision
+- Machine Learning
+- Biometrics
+- Personality Analytics
+- Public Safety
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/faception-domain-security.yml
 - type: Website
   url: https://faception.com
+- type: Blog
+  url: https://www.faception.com/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
