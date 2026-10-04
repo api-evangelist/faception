@@ -44,8 +44,8 @@ modified: '2026-07-19'
 tags:
 - Company
 - Facial Recognition
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Biometrics
 - Personality Analytics
 - Public Safety
@@ -59,6 +59,8 @@ tags_raw:
 - Personality Analytics
 - Public Safety
 - Artificial Intelligence
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
